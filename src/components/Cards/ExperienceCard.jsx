@@ -173,11 +173,24 @@ const ExperienceCard = ({ experience }) => {
                         </Skills>
                     </>
                 }
+                {experience?.github && (
+                    <Span>
+                        <b>Github Link:</b>{" "}
+                        <a href={experience?.github} target="_blank" rel="noopener noreferrer">
+                            {experience?.name}
+                        </a>
+                    </Span>
+                )}
+
             </Description>
-            {experience.doc &&
+            {experience.doc &&(
+                <Span>
+                    <b>Internship Report:</b>{" "}
                 <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
-                </a>
+                    <Document src={experience.docimg} />
+                    </a>
+                </Span>
+            )
             }
         </Card>
     )

@@ -83,7 +83,7 @@ const index = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    My education has been a journey of self-discovery and growth. My educational details are as follows.
+                    My educational journey has been one of self-discovery and growth. Here are my educational details:
                 </Desc>
                 <TimelineSection>
                     <Timeline>
