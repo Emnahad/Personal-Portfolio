@@ -272,7 +272,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Emnahad/Biking-Event-Website",
-    webapp: "",
+    webapp: "https://biking-event-website.vercel.app/",
     member: [
       {
         name: "Emna Haddar",
