@@ -9,7 +9,7 @@ export const Bio = {
     "A tech enthusiast, always eager to take on new challenges. With a positive attitude and a growth mindset, I am Dedicated to creating smooth web interactions and streamlining operations with DevOps methodologies.",
   github: "https://github.com/Emnahad",
   resume:
-    "https://drive.google.com/file/d/1gRptCgmoY9xxmn4f-6btnXJa-BiFa0IW/view?usp=drive_link",
+    "https://drive.google.com/file/d/1wovqoXchxG-JKKT81wOMi3qgLX-oWOaI/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/emna-haddar-16bb1a259/",
   facebook: "https://www.facebook.com/haddar.emna.77",
 };
