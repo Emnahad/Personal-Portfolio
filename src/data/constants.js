@@ -238,7 +238,7 @@ export const projects = [
   {
     id: 0,
     title: "E-commerce website",
-    date: "Mar 2023 - May 2023",
+    date: "Mar 2024 - May 2024",
     description:
       "Developing an e-commerce website for a handmade store, providing secure payments, and offering personalized products with detailed information",
     image:
@@ -259,7 +259,7 @@ export const projects = [
   {
     id: 1,
     title: "Biking Event Website",
-    date: "Oct 2024 - Nov 2024",
+    date: "Oct 2023 - Nov 2023",
     description:
       "This website represents an annual event hosted at SUP'COM, featuring a captivating duathlon experience for participating teams of couples. As part of this initiative, I took the lead in crafting a dedicated website for the event.",
     image:
@@ -285,7 +285,7 @@ export const projects = [
   {
     id: 2,
     title: "Pet Mobile Application",
-    date: "Nob 2024  - Jan 2024 ",
+    date: "Nov 2023  - Jan 2024 ",
     description:
       "It is a mobile application designed to help pet owners organize their tasks, easily contact vets, and ensure the safety of their pets' health.",
     image:
