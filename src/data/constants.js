@@ -6,10 +6,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "A tech enthusiast and final- year engineering student seeking a software graduation internship.Passionate about web interactions and streamlining operations with DevOps methodologies.",
+    "A tech enthusiast and freshly graduated Software Engineer from SUP'COM with a strong passion for innovation and problem-solving. Enthusiastic about web technologies and streamlining operations through DevOps methodologies.",
   github: "https://github.com/Emnahad",
   resume:
-    "https://drive.google.com/file/d/1fXHdwSe2XuQuWBsBQ6TSqyZ6kwtXP5ZT/view?usp=drive_link",
+    "https://drive.google.com/drive/folders/1qE7wRrlwZ7wExFKJC62CJb_JGk_MfDBg",
   linkedin: "https://www.linkedin.com/in/emna-haddar-16bb1a259/",
   facebook: "https://www.facebook.com/haddar.emna.77",
 };
@@ -21,10 +21,10 @@ export const skills = [
       {
         name: "Angular",
         image:
-        "https://github.com/Emnahad/Emnahad/blob/logos/Angular_full_color_logo.svg-removebg-preview.png?raw=true",
+          "https://github.com/Emnahad/Emnahad/blob/logos/Angular_full_color_logo.svg-removebg-preview.png?raw=true",
 
       },
-      
+
       {
         name: "JavaScript",
         image:
@@ -42,9 +42,9 @@ export const skills = [
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
-        name: "Flutter",
+        name: "ReactJS",
         image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s",
       },
     ],
   },
@@ -104,7 +104,7 @@ export const skills = [
   {
     title: "Devops",
     skills: [
-      
+
       {
         name: "Docker",
         image:
@@ -113,7 +113,7 @@ export const skills = [
       {
         name: "Jenkins",
         image:
-        "https://raw.githubusercontent.com/Emnahad/Emnahad/logos/JenkinsLogo.png",
+          "https://raw.githubusercontent.com/Emnahad/Emnahad/logos/JenkinsLogo.png",
 
       },
       {
@@ -133,6 +133,28 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://github.com/Emnahad/Emnahad/blob/logos/sofrecom-logo.png?raw=true",
+    role: "Software Engineer Intern",
+    company: "Sofrecom Tunisia",
+    date: "February 2025 - June 2025",
+    desc: "Developing and designing a  microservice web application for management and supervision of the Stargate Data Lakehouse.",
+    skills: [
+      "ReactJS",
+      "FastApi",
+      "Python",
+      "Postgresql",
+      "GitLab CI",
+      "Docker",
+    ],
+    github: "",
+    name: "",
+
+    doc: "",
+    docimg: ""
+
+  },
+  {
+    id: 0,
     img: "https://raw.githubusercontent.com/Emnahad/Emnahad/logos/PrimatecLogo.png",
     role: "Software Engineer Intern",
     company: "Primatec Engineering",
@@ -148,8 +170,8 @@ export const experiences = [
       "Docker",
       "Jenkins",
     ],
-    github: "",
-    name: "",
+    github: "https://github.com/Emnahad/Workflow_Configuration_Project",
+    name: "Workflow Configuration platform Link",
 
     doc: "",
     docimg: "https://github.com/Emnahad/Emnahad/blob/logos/Screenshot%202024-04-20%20110649.png?raw=true"
@@ -171,10 +193,10 @@ export const experiences = [
       "Figma",
     ],
     github: "https://github.com/Emnahad/Management-plateform-for-new-recruits",
-    name: "Management plateform for new recruits Link",
+    name: "Management platform for new recruits Link",
 
     doc: "https://drive.google.com/file/d/1TYCO4PzTvyXNf_O1HNYcBtMWRp6D3g8o/view?usp=drive_link",
-    docimg:"https://github.com/Emnahad/Emnahad/blob/logos/Screenshot%202024-04-20%20110649.png?raw=true"
+    docimg: "https://github.com/Emnahad/Emnahad/blob/logos/Screenshot%202024-04-20%20110649.png?raw=true"
 
   },
   {
@@ -192,7 +214,7 @@ export const experiences = [
       "Figma",
     ],
     github: "https://github.com/Emnahad/Rental-Cars-Website",
-    name:"Rental Cars Website Link",
+    name: "Rental Cars Website Link",
   },
 ];
 
@@ -226,6 +248,35 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 10,
+    title: "E-commerce Clothing Application Based on Microservices",
+    date: "Oct 2024 - Dec 2024",
+    description:
+      "Developed a microservice e-commerce application including authentication, product catalog, search, payments, order management, cart, inventory, and notifications and an AI- based product recommendation services. Containerized each microservice with Docker in AWS EC2 instance.",
+    image:
+      "https://github.com/Emnahad/Emnahad/blob/logos/Screenshot%202025-06-01%20144738.png?raw=true",
+    tags: [
+      "Spring Boot", "Angular", "MongoDB", "PostgreSQL", "Python", "FastApi", "AWS"
+    ],
+    category: "web app",
+    github: "https://github.com/Emnahad/Emnahad-E-commerce-WonderWear",
+    webapp: "",
+    member: [
+      {
+        name: "Emna Haddar",
+        img: "https://avatars.githubusercontent.com/u/118575150?v=4",
+        linkedin: "https://www.linkedin.com/in/emna-haddar-16bb1a259/",
+        github: "https://github.com/Emnahad",
+      },
+      {
+        name: "Elyes Besbes",
+        img: "https://avatars.githubusercontent.com/u/155812047?v=4",
+        linkedin: "https://www.linkedin.com/in/elyes-besbes-ict-engineer/",
+        github: "https://github.com/elybesbes",
+      },
+    ],
+  },
   {
     id: 9,
     title: "Tunisian Guest Houses Website",
@@ -270,7 +321,7 @@ export const projects = [
       "Developing an e-commerce website for a handmade store, providing secure payments, and offering personalized products with detailed information",
     image:
       "https://github.com/Emnahad/Emnahad/blob/logos/Screenshot%202024-04-20%20124222.png?raw=true",
-    tags: ["NextJs","Stripe","Sanity"],
+    tags: ["NextJs", "Stripe", "Sanity"],
     category: "web app",
     github: "https://github.com/Emnahad/E-commerce-Website",
     webapp: "",
@@ -295,7 +346,7 @@ export const projects = [
       "html",
       "css",
       "JavaScript",
-      
+
     ],
     category: "web app",
     github: "https://github.com/Emnahad/Biking-Event-Website",
